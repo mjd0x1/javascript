@@ -1,0 +1,38 @@
+button{
+
+    font-size: large;
+    background-color: skyblue;
+    display: inline-block;
+
+}
+
+
+.grid {
+   
+    width: 300.6;
+    height: 300.06px;
+    background-color: yellow;
+    display:flex;
+    flex-wrap:  wrap;
+   
+    
+}
+
+.selected {
+    background-color: red;
+
+}
+
+.unselected {
+    background-color: yellow;
+
+}
+
+
+
+.grid div {
+    width: 20;
+    height: 20px;
+    border-width: 0.1px;
+    border-style: solid;
+}

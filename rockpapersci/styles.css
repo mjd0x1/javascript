@@ -1,0 +1,55 @@
+
+h1 {
+
+    color: firebrick;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.score-board {
+    text-align: center;
+    font-family: Verdana;
+
+}
+
+img {
+    height: 100px;
+    width:100px
+  }
+
+.result {
+    color: firebrick;
+    text-align: center;
+    font-family: Verdana;
+    margin: 20px;
+
+}
+
+.choices {
+    margin: 50px 0;
+    text-align: center;
+
+}
+
+.score-board-element {
+    
+    padding: 2px;
+    display: inline-block;
+
+}
+
+.choice {
+  border: 4px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-block;
+  margin: 20px;
+  transition: 0.3s ease;
+
+}
+
+.choice:hover {
+    cursor:pointer ;
+    background: skyblue;
+
+}

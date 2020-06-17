@@ -1,0 +1,19 @@
+.grid {
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    display:flex;
+    flex-wrap:  wrap;
+    
+}
+
+.grid div {
+    width: 20;
+    height: 20px;
+}
+
+.tetron {
+    background-color:blue;
+
+
+}
